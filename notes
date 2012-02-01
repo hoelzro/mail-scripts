@@ -1,0 +1,5 @@
+- archival
+- search/indexing
+  - we need to make sure that this works with archival!
+- duplicate detection
+- attachment extraction
