@@ -6,7 +6,6 @@ use feature 'say';
 
 use Digest::SHA;
 use Getopt::Long;
-use Email::MIME;
 use Email::Simple;
 use File::Slurp;
 use File::Spec;
