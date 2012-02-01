@@ -31,6 +31,8 @@ sub generate_fingerprint {
         $copy->header_set($name, @values);
     }
 
+    $copy->header_set(Date => undef);
+
     my $digest = Digest::SHA->new(1);
     $digest->add($copy->as_string);
     return $digest->hexdigest;
